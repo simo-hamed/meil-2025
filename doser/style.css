@@ -23,29 +23,6 @@
   background-image: url(imag/background-lakhra-2.jpg) !important;
   background-repeat: no-repeat !important;
  }
- 
-
-
-@media (max-width:1024px){
-    h5{
-        color: rgba(255, 0, 238, 0.872) !important;
-    }
-    .container{
-        grid-template-columns: 100fr ;
-        grid-template-rows: 100fr 100fr 100fr 100fr;
-    }
-
-}
-@media (max-width:600px){
-    h3{
-        color: rgb(255, 0, 0) !important;
-    }
-
-}
-
-
-
-
 .fon-famly ul li{
     font-family: "Chango", serif;
     font-weight: 400;
@@ -61,7 +38,7 @@
 
 }
 .submit{
-    margin-left: 10rem !important;
+    margin-right: 10rem !important;
 }
 .nav-item{
     margin: 10px !important;
