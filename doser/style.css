@@ -61,9 +61,31 @@
     font-weight: 500;
     font-style:italic;
 }
-
+.d-fle-mochkil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 @media (max-width:1024px){
+  .d-fle-mochkil{
+    flex-direction: column; 
+  }
+  .div-img{
+    margin-top: 20px;
+  }
+  .foad{
+    margin-top: 10px;
+  }
   
+  .df-mochk{
+    flex-direction: column;
+  }
+  
+}
+.df-mochk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .simo {
