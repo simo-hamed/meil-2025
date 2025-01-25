@@ -66,6 +66,15 @@
     justify-content: center;
     align-items: center;
   }
+  .zom-d{
+    width: 50% !important;
+  }
+  .dika{
+    width: 100%;
+  }
+  .kida{
+    width: 100%;
+  }
 @media (max-width:1024px){
   .d-fle-mochkil{
     flex-direction: column; 
@@ -80,8 +89,31 @@
   .df-mochk{
     flex-direction: column;
   }
+  .zom-d{
+    width: 100% !important;
+
+  }
+  .div-img {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .dika{
+    border-radius: 55px !important;
+    width: 50% !important;
+
+  }
+  .img-2{
+    display: flex;
+    justify-content: center;
+  }
+  .kida{
+    border-radius:55px !important ;
+    width: 80% !important;
+  }
   
 }
+
 .df-mochk{
   display: flex;
   justify-content: center;
