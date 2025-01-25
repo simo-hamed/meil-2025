@@ -23,14 +23,14 @@
   background-image: url(imag/background-lakhra-2.jpg) !important;
   background-repeat: no-repeat !important;
  }
-.fon-famly ul li{
+.fon-famly .hover-3{
     font-family: "Chango", serif;
     font-weight: 400;
     font-style: normal;
     transition: 1s;
 
 }
-.fon-famly li:hover{
+.fon-famly .hover-3:hover{
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
@@ -38,7 +38,7 @@
 
 }
 .submit{
-    margin-right: 10rem !important;
+    margin-left: 10rem !important;
 }
 .nav-item{
     margin: 10px !important;
@@ -60,6 +60,10 @@
     font-family: "PT Serif", serif;
     font-weight: 500;
     font-style:italic;
+}
+
+@media (max-width:1024px){
+  
 }
 
 .simo {
@@ -103,49 +107,6 @@
   
 
 }
-@media (max-width: 1024px) {
-  
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .buttons {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .content img {
-    max-width: 80%;
-    margin: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 1.5rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
-  .buttons .btn {
-    width: 100%;
-    text-align: center;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav ul li {
-    margin: 0.5rem 0;
-  }
-}
-
-
 .img-2{
   margin-right: 30px !important;
   border-radius: 55px !important;
