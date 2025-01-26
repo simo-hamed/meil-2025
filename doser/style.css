@@ -15,6 +15,10 @@
     background-image: url(imag/backround1.png);
     background-repeat: no-repeat;
   }
+  .navbarmochkil{
+    display: flex !important;
+    justify-content: center !important;
+  }
  .simo-23{
   background-image: url(imag/background-lakhar.jpg) !important;
   background-repeat: no-repeat !important;
